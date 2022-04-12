@@ -9,41 +9,45 @@
 body {
     background-image: url(../media/claro.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(247, 12, 12, 0.5);
+    background-color: rgb(163, 10, 10);
     font-family: sans-serif;
     overflow: hidden;
     margin: 0px;
 }
 
+/*form*/
 .area-login {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 83.5vh;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.226);
 }
 
 .login {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     box-shadow: 0px 0px 12px 0px rgba(229, 133, 133,0.8);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.384);
+    background-color: rgba(255, 0, 0, 0.171);
     width: 355px;
     height: 320px;
     padding: 35px;
     border-radius: 15px;
 }
 
+.color{
+    color:white;
+}
+
 .login form {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .login input {
@@ -61,17 +65,17 @@ input::placeholder {
     font-size: 14px;
 }
 
-form [type="submit"]{
-    color: rgba(93, 206, 89, 0.637);
+form [type="submit"] {
+    color: rgba(255, 255, 255, 0.884);
     display: block;
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: rgba(73, 150, 29, 0.767);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
 }
 
-/*tool-bar*/
+/*nav-bar*/
 #top {
     background-color: rgba(175, 15, 15, 0.884);
 }
@@ -83,6 +87,35 @@ form [type="submit"]{
     color: white;
 }
 
+/*footer*/
+footer{
+    backdrop-filter: blur(3px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: white;
+}
 
+.footer {
+    background: rgba(155, 26, 26, 0.616);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
 
+.footer p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
 
+.footer span {
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 200;
+}
