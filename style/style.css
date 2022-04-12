@@ -23,6 +23,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.226);
 }
 
 .login {
@@ -42,6 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    
 }
 
 .login input {
@@ -60,9 +62,9 @@ input::placeholder {
 }
 
 form [type="submit"]{
-    color: rgba(175, 123, 123, 0.589);
+    color: rgba(93, 206, 89, 0.637);
     display: block;
-    background-color: rgb(211, 202, 202);
+    background-color: rgba(255, 255, 255, 0.767);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
